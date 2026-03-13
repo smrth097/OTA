@@ -1,5 +1,31 @@
 Changelog
 =========
+12/03/2026
+---------------
+- Switch to armv8-2a-dotprod arch variant
+- Enable uclamp latency_sensitive for top-app
+- Import cgroup tuning from gs101
+- Disable multiple kswapd threads
+- Chown the cgroup.procs nodes
+- Optimize cpuset configuration
+- Defer refresh rate changes when screen is off
+- Disable skia tracing
+- Tune adaptive suspend proprieties
+- Increase CPU Boost duration from 120ms to 200ms
+- Tweak input boost
+- Set debug.sf.enable_hwc_vds=0
+- Add support for ViPER4Android FX
+
+04/03/2026
+---------------
+- Added toggle for eSIM
+- Corrected eSIM perms
+- Fixed BLE devices pairing
+- Kernel upstream
+- Enable apk fs-verity
+- KSUN v3.1.0 & SUSFS v2.0.0 Included
+- Misc fixes and Improvement
+
 15/02/2026
 ---------------
 - A16-QPR2 Build
